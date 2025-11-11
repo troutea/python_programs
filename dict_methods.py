@@ -11,7 +11,9 @@ d = {
     9: "nine",
 }
 
-# pantry_items = ['chicken', 'spam', 'egg', 'bread', 'lemon']
+pantry_items = ['chicken', 'spam', 'egg', 'bread', 'lemon']
+v = d.values()
+print(v)
 
 # new_dict = dict.fromkeys(pantry_items, 0)
 
@@ -23,12 +25,17 @@ d = {
 # for item in d.keys():
 #     print(item)
 
-d2 = {
-    7: "lucky seven",
-    10: "ten",
-    3: "this is the new three"
-}
+# d2 = {
+#     7: "lucky seven",
+#     10: "ten",
+#     3: "this is the new three"
+# }
 
-d.update(d2)
-for key, value in d.items():
-    print(key, value)
+# # d.update(d2)
+# # for key, value in d.items():
+# #     print(key, value)
+
+
+# d.update(enumerate(pantry_items))
+# for key, value in d.items():
+#     print(key, value)
