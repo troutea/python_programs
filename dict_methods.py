@@ -13,7 +13,26 @@ d = {
 
 pantry_items = ['chicken', 'spam', 'egg', 'bread', 'lemon']
 v = d.values()
+
+d[10] = "ten"
 print(v)
+
+print("four" in v)
+print("eleven" in v)
+
+#convert the dict toa list
+keys = list(d.keys())
+values = list(v)
+if "four" in values:
+    index = values.index("four")
+    key = keys[index]
+    print(f"{d[key]} was found with the key {key}")
+    
+    
+for key, value in d.items():
+    if value == "four":
+        print(f"{d[key]} was found with the key {key}")
+        
 
 # new_dict = dict.fromkeys(pantry_items, 0)
 
