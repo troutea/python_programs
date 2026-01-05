@@ -1,15 +1,33 @@
 
-thisset = {"apple", "banana", "cherry"}
 
-print(thisset)
+def checkStatus():
+    """
+    Given two integer variables a and b, and a boolean variable flag. The task is to check the status and return accordingly.
 
-print(len(thisset))
+Return True for the following cases:
 
-print(type(thisset))
+    Either a or b (not both) is non-negative and the flag is false.
+    Both a and b are negative and the flag is true.
 
-
-#if __name__ == "__main__":
-    # dict_play(thisdict)
-    #     print("hello from main")
+Otherwise, return False.
     
     
+
+    Args:
+        a (_type_): _description_
+        b (_type_): _description_
+        flag (_type_): _description_
+    """
+        
+    print("Enter a number: ")
+    a = input()
+    print(a)
+    
+    
+        
+    
+    
+
+
+
+checkStatus()    
