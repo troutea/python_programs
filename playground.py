@@ -1,33 +1,15 @@
-
-
-def checkStatus():
-    """
-    Given two integer variables a and b, and a boolean variable flag. The task is to check the status and return accordingly.
-
-Return True for the following cases:
-
-    Either a or b (not both) is non-negative and the flag is false.
-    Both a and b are negative and the flag is true.
-
-Otherwise, return False.
-    
-    
-
-    Args:
-        a (_type_): _description_
-        b (_type_): _description_
-        flag (_type_): _description_
-    """
+class Person:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
         
-    print("Enter a number: ")
-    a = input()
-    print(a)
-    
-    
+    def myfunc(self):
+        print("Hello my name is " + self.name)
         
-    
-    
+p1 = Person("John", 36)
 
+print(p1.name)
 
+del p1
 
-checkStatus()    
+print(p1)
